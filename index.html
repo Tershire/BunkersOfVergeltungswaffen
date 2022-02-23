@@ -1,23 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- Head -->    
 <head>
     <!-- Title & Meta -->
     <title>Bunkers of Vergeltungswaffen</title>
 	<meta charset="utf-8">
     <meta name="author"   content="Tershire">
     <meta name="keywords" contant="NAZI, Vergeltungswaffen, V Weapons, Bunkers">
+    <!-- Fonts -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Germania+One&display=swap');
+        p{font-family: 'Germania One', cursive;}
+        @import url('https://fonts.googleapis.com/css2?family=Germania+One&family=UnifrakturMaguntia&display=swap');
+        p{font-family: 'UnifrakturMaguntia', cursive;}
+    </style>
     <!-- Link to CSS & JavaScript -->
 	<link   rel="stylesheet" href="css/style.css">
     <script src="js/script.js"></script>
 </head>
+<!-- Body -->
 <body>
+    <!-- 감싸기: 보통 <body> 내용 전체를 이렇게 묶어주는 게 좋다 -->
 	<div id="wrapper">
+        <!-- 최상단구간: 여기서는 제목그룹과 네비게이션[메뉴 및 공간]을 포함한다-->
 		<header>
+            <!-- 제목 그룹 -->
 			<hgroup>
 				<h1>Bunkers of Vergeltungswaffen</h1>
 				<h2>Project by Wonhee Lee, Georgia Institute of Technology</2022></h2>
 			</hgroup>
+            <!-- NAV: 메뉴 (목록: 순서무시) -->
+            <nav id="menu">
+				<ul>
+					<li id="current"><a href="#">Home</a></li>
+					<li><a href="#">Bunkers</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
         </header>
+        <!-- NAV: 공간 (목록: 순서무시) -->
+        <section>
+            <nav id="space">
+                <ul>
+                    <li><a href="#">La Coupole</a></li>
+                    <li><a href="#">Fortress of Mimoyecques</a></li>
+                </ul>
+            </nav>
+        </section>
+        <!-- Intro Image -->
+        <section>
+            <p><img src="images/BannerSky.jpg" alt="banner image" /></p>
+        </section>
     </div>
 </body>
 </html>
